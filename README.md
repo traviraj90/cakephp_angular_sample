@@ -5,8 +5,10 @@ It's based on [Hantsy's Angular Sample
 Code](http://hantsy.blogspot.com/2013/11/angularjs-cakephp-sample-codes.html)\.
 
 ##Database Setup
-First create a database "cakephp\_angular\_sample", then copy the following script to MySQL console:
+Copy the following script to MySQL console:
 
+    CREATE DATABASE cakephp_angular_sample;
+    USE cakephp_angular_sample
     CREATE TABLE posts (
         id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
         title VARCHAR(50),
@@ -16,11 +18,26 @@ First create a database "cakephp\_angular\_sample", then copy the following scri
     );
 
     INSERT INTO posts (title,body,created)
-    VALUES (’The title’, ’This is the post body.’, NOW());
+    VALUES ('The title', 'This is the post body.', NOW());
     INSERT INTO posts (title,body,created)
-    VALUES (’A title once again’, ’And the post body follows.’, NOW());
+    VALUES ('A title once again', 'And the post body follows.', NOW());
     INSERT INTO posts (title,body,created)
-    VALUES (’Title strikes back’, ’This is really exciting! Not.’, NOW());
+    VALUES ('Title strikes back', 'This is really exciting! Not.', NOW());
+
+This sample app assume that the database user is 'root' without password, if
+your setup is different, change the configuration in 'app/Config/database.php'
+
+##How to run the code sample
+1. Clone this repository to cakephp\_angular\_sample directory in your server root  
+2. Copy the script on Database Setup to MySQL console
+3. Open your browser and go to http://localhost/cakephp\_angular\_sample
+
+##Running on different directory
+If you installed it on a different directory other than
+cakephp\_angular\_sample, you need to edit 'webroot/js/controllers.js' and
+change the following line:
+
+    $rootScope.appUrl = "http://localhost/cakephp_angular_sample/";
 
 ##Approach
 Hantsy's approach is more like separating the both client and server side scripts from CakePHP by
@@ -36,4 +53,4 @@ So, this is what I did to Hantsy's original sample:
 5. Included all those scripts in the head section of "View/Layouts/default.ctp"  
 
 Also, I changed some codes to make it compatible with the current bootstrap and removed some unnecessary
-codes, e.g. i18n libraries\.
+codes/libraries, e.g. i18n library\.

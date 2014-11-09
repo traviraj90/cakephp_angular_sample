@@ -21,7 +21,7 @@ as.controller('AppCtrl', function($scope, $rootScope, $http, $location) {
         $location.url('/');
     };
 
-    $rootScope.appUrl = "http://localhost/single/";
+    $rootScope.appUrl = "http://localhost/cakephp_angular_sample/";
 });
 
 as.controller('PostListCtrl', function($scope, $rootScope, $http, $location) {
