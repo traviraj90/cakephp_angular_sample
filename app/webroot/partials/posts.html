@@ -1,0 +1,30 @@
+<div ng-controller="PostListCtrl">
+    <h1 class="page-header">Post List</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th width="25px">ID</th>
+                <th>TITLE</th>
+                <th>CONTENT</th>
+                <th>CREATED DATE</th>
+                <th width="50px"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="e in posts">
+                <td>{{e.Post.id}}</td>
+                <td>{{e.Post.title}}</td>
+                <td>{{e.Post.body}}</td>
+                <td>{{e.Post.created|date:'short'}}</td>
+                <td width='100'>
+                    <button type='button' ng-click="editPost($index)" class='btn btn-default btn-sm'>
+                        <span class="glyphicon glyphicon-pencil"></span>
+                    </button>
+                    <button type='button' ng-click="delPost($index)" class='btn btn-danger btn-sm'>
+                        <span class="glyphicon glyphicon-remove-circle"></span>
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

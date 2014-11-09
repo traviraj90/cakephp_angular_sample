@@ -1,0 +1,372 @@
+2014-11-09 07:44:49 Error: [MissingViewException] View file "/home/tingwai/personal/cakephp-single-page/app/View/Pages/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/tingwai/personal/cakephp-single-page/app/View/Pages/index.ctp',
+)
+Request URL: /single/
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/tingwai/personal/cakephp-single-page/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/tingwai/personal/cakephp-single-page/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/tingwai/personal/cakephp-single-page/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-09 08:16:18 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /single/app/
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/tingwai/personal/cakephp-single-page/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-09 08:16:35 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /single/app/index.html
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/tingwai/personal/cakephp-single-page/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-09 08:24:41 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /single/lib/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 08:24:41 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /single/lib/holder.js
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 08:24:41 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /single/lib/jquery.i18n.properties-min-1.0.9.js
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 08:24:41 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /single/lib/html5shiv.js
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 08:24:41 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /single/lib/bootstrap/js/bootstrap.min.js
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 08:24:42 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /single/lib/jquery.js
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 08:24:43 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /single/lib/angular/angular.js
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 08:24:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /single/js/services.js
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 08:24:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /single/js/controllers.js
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 08:24:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /single/js/filters.js
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 08:24:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /single/js/app.js
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 08:24:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /single/js/directives.js
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 08:24:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /single/css/app.css
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 08:35:03 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /single/lib/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 08:35:04 Error: Fatal Error (1): Call to undefined method View::script() in [/home/tingwai/personal/cakephp-single-page/app/View/Layouts/default.ctp, line 37]
+2014-11-09 08:35:04 Error: [FatalErrorException] Call to undefined method View::script()
+Request URL: /single/lib/bootstrap/css/bootstrap.min.css
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/tingwai/p...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/tingwai/p...', 37, Array)
+#2 /home/tingwai/personal/cakephp-single-page/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/tingwai/p...', 37, Array)
+#3 /home/tingwai/personal/cakephp-single-page/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-09 08:35:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /single/css/app.css
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 08:35:04 Error: Fatal Error (1): Call to undefined method View::script() in [/home/tingwai/personal/cakephp-single-page/app/View/Layouts/default.ctp, line 37]
+2014-11-09 08:35:04 Error: [FatalErrorException] Call to undefined method View::script()
+Request URL: /single/css/app.css
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/tingwai/p...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/tingwai/p...', 37, Array)
+#2 /home/tingwai/personal/cakephp-single-page/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/tingwai/p...', 37, Array)
+#3 /home/tingwai/personal/cakephp-single-page/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-11-09 08:41:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /single/js/filters.js
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 08:41:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /single/js/lib/angular.min.js.map
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 08:43:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /single/js/filters.js
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 08:44:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /single/js/lib/angular.min.js.map
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 08:45:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /single/js/filters.js
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 08:54:17 Error: [MissingViewException] View file "/home/tingwai/personal/cakephp-single-page/app/View/Posts/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/tingwai/personal/cakephp-single-page/app/View/Posts/index.ctp',
+)
+Request URL: /single/posts
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/tingwai/personal/cakephp-single-page/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/tingwai/personal/cakephp-single-page/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/tingwai/personal/cakephp-single-page/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-09 09:01:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /single/js/lib/angular-route.min.js.map
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 09:02:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /single/js/lib/angular-route.min.js.map
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 09:06:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /single/js/lib/angular-route.min.js
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 09:35:48 Error: [MissingControllerException] Controller class I18nController could not be found.
+Exception Attributes: array (
+  'class' => 'I18nController',
+  'plugin' => NULL,
+)
+Request URL: /single/i18n/messages.properties?_=1415522147924
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 09:35:48 Error: [MissingControllerException] Controller class I18nController could not be found.
+Exception Attributes: array (
+  'class' => 'I18nController',
+  'plugin' => NULL,
+)
+Request URL: /single/i18n/messages_en.properties?_=1415522147925
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 09:36:12 Error: [MissingControllerException] Controller class I18nController could not be found.
+Exception Attributes: array (
+  'class' => 'I18nController',
+  'plugin' => NULL,
+)
+Request URL: /single/i18n/messages_en.properties?_=1415522147925
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 09:36:13 Error: [MissingControllerException] Controller class I18nController could not be found.
+Exception Attributes: array (
+  'class' => 'I18nController',
+  'plugin' => NULL,
+)
+Request URL: /single/i18n/i18n/messages.properties?_=1415522172838
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 09:36:13 Error: [MissingControllerException] Controller class I18nController could not be found.
+Exception Attributes: array (
+  'class' => 'I18nController',
+  'plugin' => NULL,
+)
+Request URL: /single/i18n/i18n/messages_en.properties?_=1415522172839
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 09:45:44 Error: [MissingControllerException] Controller class UndefinedController could not be found.
+Exception Attributes: array (
+  'class' => 'UndefinedController',
+  'plugin' => NULL,
+)
+Request URL: /single/undefined/posts.json
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 09:45:44 Error: [MissingControllerException] Controller class UndefinedController could not be found.
+Exception Attributes: array (
+  'class' => 'UndefinedController',
+  'plugin' => NULL,
+)
+Request URL: /single/undefined/posts.json
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 11:53:32 Error: [MissingControllerException] Controller class PartialsController could not be found.
+Exception Attributes: array (
+  'class' => 'PartialsController',
+  'plugin' => NULL,
+)
+Request URL: /single/partials/new-post.html
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 11:55:54 Error: [MissingControllerException] Controller class PartialsController could not be found.
+Exception Attributes: array (
+  'class' => 'PartialsController',
+  'plugin' => NULL,
+)
+Request URL: /single/partials/new-post.html
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 12:32:23 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /single/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-09 12:32:23 Error: [MissingControllerException] Controller class FontsController could not be found.
+Exception Attributes: array (
+  'class' => 'FontsController',
+  'plugin' => NULL,
+)
+Request URL: /single/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/tingwai/personal/cakephp-single-page/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
